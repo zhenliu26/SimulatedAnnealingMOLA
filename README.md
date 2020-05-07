@@ -26,10 +26,7 @@ The start temperature (T_start) is 2000; the end temperature (T_end) is 1e-20; t
 After we get the results, we use the Crosstab in Terrset to find the difference between two allocation maps (MOLA and Simulated Annealing).
 
 ## Results ##
-The results are shown in the figure and Table parts at the end of the report.
-Figure 2 is the allocation map by the simulated annealing; Figure 3 is the allocation map by MOLA in Terrset; Figure 5 is the total suitability (y-axis) and the number of iterations (x-axis). Table 1 is the comparison between MOLA and Simulated Annealing. The total suitability in MOLA is 1,115,257, and the total suitability in the simulated annealing is 1,048,880.5.
-And, the results of the comparison between two allocation maps are also included in the Figure and Table parts at the end of the report.
-Figure 4 is the map result of Crosstab (0: non-value; 1: Residential; 2: Industrial); Table 2 is the result of CrossTab in Terrset in a table format.
+The total suitability in MOLA is 1,115,257, and the total suitability in the simulated annealing is 1,048,880.5.
 
 ## Analysis ##
 Compared with the algorithms in Terrset, the total suitability of the simulated annealing algorithm is less and the time it takes is much longer. Also, we can tell the relationship between iteration number and total suitability is still increasing, which means the total suitability doesn’t reach to the maximum suitability. As for the two result allocation maps, they are similar. However, the distribution of sites in the allocation map by MOLA is more clustered than the one by Simulated Annealing. We can find that there are a majority of pixel choices are different in two maps, and both total suitabilities of two classes (Residential and Industrial) are higher in MOLA in Terrset.
